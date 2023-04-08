@@ -1,0 +1,11 @@
+source;share/cv_tensorrt/hook/cmake_prefix_path.ps1
+source;share/cv_tensorrt/hook/cmake_prefix_path.dsv
+source;share/cv_tensorrt/hook/cmake_prefix_path.sh
+source;share/cv_tensorrt/hook/ld_library_path_lib.ps1
+source;share/cv_tensorrt/hook/ld_library_path_lib.dsv
+source;share/cv_tensorrt/hook/ld_library_path_lib.sh
+source;share/cv_tensorrt/local_setup.bash
+source;share/cv_tensorrt/local_setup.dsv
+source;share/cv_tensorrt/local_setup.ps1
+source;share/cv_tensorrt/local_setup.sh
+source;share/cv_tensorrt/local_setup.zsh

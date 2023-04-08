@@ -1,0 +1,71 @@
+[0.012s] Invoking command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt -- -j12 -l12
+[0.031s] [ 20%] Built target myplugins
+[0.053s] [ 30%] [32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/main.cpp.o[0m
+[1.807s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.808s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:195:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IExecutionContext::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.808s]   195 |     context->destroy([01;35m[K)[m[K;
+[1.808s]       |                      [01;35m[K^[m[K
+[1.808s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+[1.808s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+[1.808s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+[1.808s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+[1.808s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[1.808s] [01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:2369:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.808s]  2369 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+[1.808s]       |                         [01;36m[K^~~~~~~[m[K
+[1.809s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:196:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::ICudaEngine::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.809s]   196 |     engine->destroy([01;35m[K)[m[K;
+[1.809s]       |                     [01;35m[K^[m[K
+[1.809s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[1.809s] [01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1609:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.809s]  1609 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+[1.809s]       |                         [01;36m[K^~~~~~~[m[K
+[1.809s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:197:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IRuntime::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.809s]   197 |     runtime->destroy([01;35m[K)[m[K;
+[1.809s]       |                      [01;35m[K^[m[K
+[1.809s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[1.809s] [01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:682:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.809s]   682 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+[1.809s]       |                         [01;36m[K^~~~~~~[m[K
+[3.744s] [ 40%] [32m[1mLinking CXX executable cv_tensorrt[0m
+[4.039s] [100%] Built target cv_tensorrt
+[4.045s] Invoked command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt -- -j12 -l12
+[4.069s] Invoking command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt
+[4.073s] -- Install configuration: "Debug"
+[4.073s] -- Installing: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/cv_tensorrt/cv_tensorrt
+[4.077s] -- Set runtime path of "/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/cv_tensorrt/cv_tensorrt" to ""
+[4.077s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//launch
+[4.077s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//launch/cv_tensorrt_launch.py
+[4.078s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config
+[4.078s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/yolov5_det
+[4.078s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/yolov5s.wts
+[4.078s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/autoAim.yaml
+[4.078s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin
+[4.078s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/armor.engine
+[4.078s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/yolov5s.engine
+[4.079s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/libmyplugins.so
+[4.079s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/package_run_dependencies/cv_tensorrt
+[4.079s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/parent_prefix_path/cv_tensorrt
+[4.080s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/ament_prefix_path.sh
+[4.081s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/ament_prefix_path.dsv
+[4.081s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/path.sh
+[4.081s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/path.dsv
+[4.081s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.bash
+[4.081s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.sh
+[4.082s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.zsh
+[4.082s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.dsv
+[4.082s] -- Installing: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/package.dsv
+[4.082s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/packages/cv_tensorrt
+[4.082s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.083s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/cv_tensorrtConfig.cmake
+[4.083s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/cv_tensorrtConfig-version.cmake
+[4.084s] -- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/package.xml
+[4.084s] Invoked command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt

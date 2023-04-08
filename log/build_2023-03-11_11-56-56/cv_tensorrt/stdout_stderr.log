@@ -1,0 +1,164 @@
+[ 20%] Built target myplugins
+[ 30%] [32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/main.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/YOLO.cpp.o[0m
+In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:29[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5[m[K:
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:[m[K In member function ‘[01m[Kvoid YOLO::prepare_buffers(nvinfer1::ICudaEngine*, float**, float**, float**)[m[K’:
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:56:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint32_t nvinfer1::ICudaEngine::getNbBindings() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   56 |     assert(engine->getNbBindings([01;35m[K)[m[K == 2);
+      |                                  [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1399:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1399 |     TRT_DEPRECATED int32_t [01;36m[KgetNbBindings[m[K() const noexcept
+      |                            [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:59:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint32_t nvinfer1::ICudaEngine::getBindingIndex(const char*) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   59 |     const int inputIndex = engine->getBindingIndex(kInputTensorName[01;35m[K)[m[K;
+      |                                                                    [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1427:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1427 |     TRT_DEPRECATED int32_t [01;36m[KgetBindingIndex[m[K(char const* name) const noexcept
+      |                            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:60:70:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint32_t nvinfer1::ICudaEngine::getBindingIndex(const char*) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   60 |     const int outputIndex = engine->getBindingIndex(kOutputTensorName[01;35m[K)[m[K;
+      |                                                                      [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1427:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1427 |     TRT_DEPRECATED int32_t [01;36m[KgetBindingIndex[m[K(char const* name) const noexcept
+      |                            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:[m[K In member function ‘[01m[Kvoid YOLO::infer(nvinfer1::IExecutionContext&, CUstream_st*&, void**, float*, int)[m[K’:
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:71:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool nvinfer1::IExecutionContext::enqueue(int32_t, void* const*, cudaStream_t, CUevent_st**)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   71 |     context.enqueue(batchsize, gpu_buffers, stream, nullptr[01;35m[K)[m[K;
+      |                                                            [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:2303:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2303 |     TRT_DEPRECATED bool [01;36m[Kenqueue[m[K(
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:[m[K In member function ‘[01m[Kvoid YOLO::serialize_engine(unsigned int, bool&, float&, float&, std::string&, std::string&)[m[K’:
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:103:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::ICudaEngine::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  103 |     engine->destroy([01;35m[K)[m[K;
+      |                     [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1609:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1609 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:104:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IBuilder::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  104 |     builder->destroy([01;35m[K)[m[K;
+      |                      [01;35m[K^[m[K
+In file included from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:9422:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 9422 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:105:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IBuilderConfig::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  105 |     config->destroy([01;35m[K)[m[K;
+      |                     [01;35m[K^[m[K
+In file included from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:8950:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 8950 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:106:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IHostMemory::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  106 |     serialized_engine->destroy([01;35m[K)[m[K;
+      |                                [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:172:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  172 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:186:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IExecutionContext::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  186 |     context->destroy([01;35m[K)[m[K;
+      |                      [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:2369:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2369 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:187:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::ICudaEngine::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  187 |     engine->destroy([01;35m[K)[m[K;
+      |                     [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1609:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1609 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:188:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IRuntime::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  188 |     runtime->destroy([01;35m[K)[m[K;
+      |                      [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:682:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  682 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX executable cv_tensorrt[0m
+[100%] Built target cv_tensorrt
+-- Install configuration: "Debug"
+-- Installing: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/cv_tensorrt/cv_tensorrt
+-- Set runtime path of "/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/cv_tensorrt/cv_tensorrt" to ""
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//launch
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//launch/cv_tensorrt_launch.py
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/yolov5_det
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/yolov5s.wts
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/autoAim.yaml
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/armor.engine
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/yolov5s.engine
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/libmyplugins.so
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/package_run_dependencies/cv_tensorrt
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/parent_prefix_path/cv_tensorrt
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/path.sh
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/path.dsv
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.bash
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.sh
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.zsh
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.dsv
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/package.dsv
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/packages/cv_tensorrt
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/cv_tensorrtConfig.cmake
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/cv_tensorrtConfig-version.cmake
+-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/package.xml

@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000159] (cv_tensorrt) JobQueued: {'identifier': 'cv_tensorrt', 'dependencies': OrderedDict()}
+[0.000837] (cv_tensorrt) JobStarted: {'identifier': 'cv_tensorrt'}
+[0.009195] (cv_tensorrt) JobProgress: {'identifier': 'cv_tensorrt', 'progress': 'cmake'}
+[0.009697] (cv_tensorrt) JobProgress: {'identifier': 'cv_tensorrt', 'progress': 'build'}
+[0.010367] (cv_tensorrt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt', '--', '-j12', '-l12'], 'cwd': '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hongbin'), ('SSH_AGENT_PID', '1881'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/hongbin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1657'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=277a2b06be7312b5d1863a3b640c3662'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hongbin/Desktop/cv_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hongbin'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:42647'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hongbin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.8/bin:/home/hongbin/.local/bin:/usr/local/cuda-11.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hongbin-AERO-15-WB:@/tmp/.ICE-unix/1919,unix/hongbin-AERO-15-WB:/tmp/.ICE-unix/1919'), ('INVOCATION_ID', 'd5409fcb92bd455f9a5f627932df1443'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f338265b_d0ee_4850_ae75_bdadca0766a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=277a2b06be7312b5d1863a3b640c3662'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt:/opt/ros/foxy')]), 'shell': False}
+[0.029786] (cv_tensorrt) StdoutLine: {'line': b'[ 20%] Built target myplugins\n'}
+[0.053683] (cv_tensorrt) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/main.cpp.o\x1b[0m\n'}
+[0.099503] (-) TimerEvent: {}
+[0.199846] (-) TimerEvent: {}
+[0.300234] (-) TimerEvent: {}
+[0.400624] (-) TimerEvent: {}
+[0.501037] (-) TimerEvent: {}
+[0.601442] (-) TimerEvent: {}
+[0.701825] (-) TimerEvent: {}
+[0.802184] (-) TimerEvent: {}
+[0.902568] (-) TimerEvent: {}
+[1.002921] (-) TimerEvent: {}
+[1.103274] (-) TimerEvent: {}
+[1.203684] (-) TimerEvent: {}
+[1.304086] (-) TimerEvent: {}
+[1.404460] (-) TimerEvent: {}
+[1.504939] (-) TimerEvent: {}
+[1.605320] (-) TimerEvent: {}
+[1.705679] (-) TimerEvent: {}
+[1.806079] (-) TimerEvent: {}
+[1.906459] (-) TimerEvent: {}
+[1.921076] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.921348] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:206:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IExecutionContext::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.921483] (cv_tensorrt) StderrLine: {'line': b'  206 |     context->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.921825] (cv_tensorrt) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.921942] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[1.922012] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[1.922078] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[1.922143] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[1.922205] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.922268] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:2369:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.922331] (cv_tensorrt) StderrLine: {'line': b' 2369 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[1.922393] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.922469] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:207:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::ICudaEngine::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.922535] (cv_tensorrt) StderrLine: {'line': b'  207 |     engine->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.922601] (cv_tensorrt) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.922661] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[1.922720] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[1.922781] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[1.922839] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[1.922898] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.922956] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1609:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.923015] (cv_tensorrt) StderrLine: {'line': b' 1609 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[1.923074] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.923133] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:208:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IRuntime::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.923194] (cv_tensorrt) StderrLine: {'line': b'  208 |     runtime->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.923254] (cv_tensorrt) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.923313] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[1.923372] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[1.923432] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[1.923490] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[1.923548] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.923607] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:682:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.923665] (cv_tensorrt) StderrLine: {'line': b'  682 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[1.923724] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.006587] (-) TimerEvent: {}
+[2.106872] (-) TimerEvent: {}
+[2.207312] (-) TimerEvent: {}
+[2.307604] (-) TimerEvent: {}
+[2.407955] (-) TimerEvent: {}
+[2.508312] (-) TimerEvent: {}
+[2.608665] (-) TimerEvent: {}
+[2.709056] (-) TimerEvent: {}
+[2.809404] (-) TimerEvent: {}
+[2.909727] (-) TimerEvent: {}
+[3.010118] (-) TimerEvent: {}
+[3.110469] (-) TimerEvent: {}
+[3.210836] (-) TimerEvent: {}
+[3.311199] (-) TimerEvent: {}
+[3.411615] (-) TimerEvent: {}
+[3.512038] (-) TimerEvent: {}
+[3.612373] (-) TimerEvent: {}
+[3.712738] (-) TimerEvent: {}
+[3.813188] (-) TimerEvent: {}
+[3.913596] (-) TimerEvent: {}
+[4.013903] (-) TimerEvent: {}
+[4.057182] (cv_tensorrt) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable cv_tensorrt\x1b[0m\n'}
+[4.114024] (-) TimerEvent: {}
+[4.214374] (-) TimerEvent: {}
+[4.314787] (-) TimerEvent: {}
+[4.408391] (cv_tensorrt) StdoutLine: {'line': b'[100%] Built target cv_tensorrt\n'}
+[4.414082] (cv_tensorrt) CommandEnded: {'returncode': 0}
+[4.416690] (-) TimerEvent: {}
+[4.440092] (cv_tensorrt) JobProgress: {'identifier': 'cv_tensorrt', 'progress': 'install'}
+[4.445809] (cv_tensorrt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt'], 'cwd': '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hongbin'), ('SSH_AGENT_PID', '1881'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/hongbin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1657'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=277a2b06be7312b5d1863a3b640c3662'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hongbin/Desktop/cv_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hongbin'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:42647'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hongbin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.8/bin:/home/hongbin/.local/bin:/usr/local/cuda-11.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hongbin-AERO-15-WB:@/tmp/.ICE-unix/1919,unix/hongbin-AERO-15-WB:/tmp/.ICE-unix/1919'), ('INVOCATION_ID', 'd5409fcb92bd455f9a5f627932df1443'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f338265b_d0ee_4850_ae75_bdadca0766a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=277a2b06be7312b5d1863a3b640c3662'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt:/opt/ros/foxy')]), 'shell': False}
+[4.450701] (cv_tensorrt) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[4.450917] (cv_tensorrt) StdoutLine: {'line': b'-- Installing: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/cv_tensorrt/cv_tensorrt\n'}
+[4.456484] (cv_tensorrt) StdoutLine: {'line': b'-- Set runtime path of "/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/cv_tensorrt/cv_tensorrt" to ""\n'}
+[4.456680] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//launch\n'}
+[4.456940] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//launch/cv_tensorrt_launch.py\n'}
+[4.457051] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config\n'}
+[4.457139] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/yolov5_det\n'}
+[4.457339] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/yolov5s.wts\n'}
+[4.457422] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/autoAim.yaml\n'}
+[4.457502] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin\n'}
+[4.457653] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/armor.engine\n'}
+[4.457757] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/yolov5s.engine\n'}
+[4.457838] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/libmyplugins.so\n'}
+[4.457918] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/package_run_dependencies/cv_tensorrt\n'}
+[4.458052] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/parent_prefix_path/cv_tensorrt\n'}
+[4.458135] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/ament_prefix_path.sh\n'}
+[4.458214] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/ament_prefix_path.dsv\n'}
+[4.458349] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/path.sh\n'}
+[4.458481] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/path.dsv\n'}
+[4.458569] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.bash\n'}
+[4.458646] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.sh\n'}
+[4.458728] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.zsh\n'}
+[4.459019] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.dsv\n'}
+[4.460092] (cv_tensorrt) StdoutLine: {'line': b'-- Installing: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/package.dsv\n'}
+[4.460234] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/packages/cv_tensorrt\n'}
+[4.461465] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.461670] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/cv_tensorrtConfig.cmake\n'}
+[4.461898] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/cv_tensorrtConfig-version.cmake\n'}
+[4.461982] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/package.xml\n'}
+[4.462123] (cv_tensorrt) CommandEnded: {'returncode': 0}
+[4.512507] (cv_tensorrt) JobEnded: {'identifier': 'cv_tensorrt', 'rc': 0}
+[4.513694] (-) EventReactorShutdown: {}

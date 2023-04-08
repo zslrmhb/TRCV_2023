@@ -1,0 +1,407 @@
+[0.000000] (-) TimerEvent: {}
+[0.000197] (cv_tensorrt) JobQueued: {'identifier': 'cv_tensorrt', 'dependencies': OrderedDict()}
+[0.000351] (cv_tensorrt) JobStarted: {'identifier': 'cv_tensorrt'}
+[0.009837] (cv_tensorrt) JobProgress: {'identifier': 'cv_tensorrt', 'progress': 'cmake'}
+[0.011174] (cv_tensorrt) JobProgress: {'identifier': 'cv_tensorrt', 'progress': 'build'}
+[0.011212] (cv_tensorrt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt', '--', '-j12', '-l12'], 'cwd': '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hongbin'), ('SSH_AGENT_PID', '5490'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/hongbin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4273'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d9f1710c6c0d526658b4f4b642c55ad'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hongbin'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:78032'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hongbin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.8/bin:/home/hongbin/.local/bin:/usr/local/cuda-11.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hongbin-AERO-15-WB:@/tmp/.ICE-unix/5535,unix/hongbin-AERO-15-WB:/tmp/.ICE-unix/5535'), ('INVOCATION_ID', '653088d0e7f048368616a3262c26d994'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf55e2f9_e5c5_4c21_8378_df7aa8970d3f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d9f1710c6c0d526658b4f4b642c55ad'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099960] (-) TimerEvent: {}
+[0.102091] (cv_tensorrt) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CUDA object CMakeFiles/myplugins.dir/lib/yolov5/plugin/yololayer.cu.o\x1b[0m\n'}
+[0.200056] (-) TimerEvent: {}
+[0.300295] (-) TimerEvent: {}
+[0.400589] (-) TimerEvent: {}
+[0.500933] (-) TimerEvent: {}
+[0.529939] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/plugin/yololayer.h(57)\x1b[0m: \x1b[01;35mwarning\x1b[0m #997-D: function \x1b[01m"nvinfer1::IPluginV2Ext::configurePlugin(const nvinfer1::Dims *, int32_t, const nvinfer1::Dims *, int32_t, const nvinfer1::DataType *, const nvinfer1::DataType *, const __nv_bool *, const __nv_bool *, nvinfer1::PluginFormat, int32_t)"\x1b[0m is hidden by \x1b[01m"nvinfer1::YoloLayerPlugin::configurePlugin"\x1b[0m -- virtual function override intended?\n'}
+[0.530765] (cv_tensorrt) StderrLine: {'line': b'\n'}
+[0.601042] (-) TimerEvent: {}
+[0.701335] (-) TimerEvent: {}
+[0.801667] (-) TimerEvent: {}
+[0.901979] (-) TimerEvent: {}
+[0.995824] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/plugin/yololayer.h(57)\x1b[0m: \x1b[01;35mwarning\x1b[0m #997-D: function \x1b[01m"nvinfer1::IPluginV2Ext::configurePlugin(const nvinfer1::Dims *, int32_t, const nvinfer1::Dims *, int32_t, const nvinfer1::DataType *, const nvinfer1::DataType *, const bool *, const bool *, nvinfer1::PluginFormat, int32_t)"\x1b[0m is hidden by \x1b[01m"nvinfer1::YoloLayerPlugin::configurePlugin"\x1b[0m -- virtual function override intended?\n'}
+[0.995962] (cv_tensorrt) StderrLine: {'line': b'\n'}
+[1.002069] (-) TimerEvent: {}
+[1.102266] (-) TimerEvent: {}
+[1.202511] (-) TimerEvent: {}
+[1.302796] (-) TimerEvent: {}
+[1.403084] (-) TimerEvent: {}
+[1.503401] (-) TimerEvent: {}
+[1.546489] (cv_tensorrt) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CUDA shared library libmyplugins.so\x1b[0m\n'}
+[1.596024] (cv_tensorrt) StdoutLine: {'line': b'[ 20%] Built target myplugins\n'}
+[1.603497] (-) TimerEvent: {}
+[1.616042] (cv_tensorrt) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/YOLO.cpp.o\x1b[0m\n'}
+[1.616285] (cv_tensorrt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/Camera.cpp.o\x1b[0m\n'}
+[1.616417] (cv_tensorrt) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/main.cpp.o\x1b[0m\n'}
+[1.616520] (cv_tensorrt) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/lib/yolov5/src/calibrator.cpp.o\x1b[0m\n'}
+[1.617072] (cv_tensorrt) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/lib/yolov5/src/model.cpp.o\x1b[0m\n'}
+[1.617198] (cv_tensorrt) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CUDA object CMakeFiles/cv_tensorrt.dir/lib/yolov5/src/preprocess.cu.o\x1b[0m\n'}
+[1.617370] (cv_tensorrt) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/lib/yolov5/src/postprocess.cpp.o\x1b[0m\n'}
+[1.703609] (-) TimerEvent: {}
+[1.803901] (-) TimerEvent: {}
+[1.904206] (-) TimerEvent: {}
+[1.938095] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Knvinfer1::IPluginV2Layer* addYoLoLayer(nvinfer1::INetworkDefinition*, std::map<std::__cxx11::basic_string<char>, nvinfer1::Weights>&, std::string, std::vector<nvinfer1::IConvolutionLayer*>, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.938335] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:277:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIPluginV2\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.938459] (cv_tensorrt) StderrLine: {'line': b'  277 |   IPluginV2 *\x1b[01;35m\x1b[Kplugin_obj\x1b[m\x1b[K = creator->createPlugin("yololayer", &plugin_data);\n'}
+[1.938565] (cv_tensorrt) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.938668] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferLegacyDims.h:16\x1b[m\x1b[K,\n'}
+[1.938771] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:16\x1b[m\x1b[K,\n'}
+[1.938873] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.938980] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.939078] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntimeCommon.h:393:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.939172] (cv_tensorrt) StderrLine: {'line': b'  393 | class TRT_DEPRECATED \x1b[01;36m\x1b[KIPluginV2\x1b[m\x1b[K\n'}
+[1.939274] (cv_tensorrt) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.943495] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Knvinfer1::ICudaEngine* build_det_engine(unsigned int, nvinfer1::IBuilder*, nvinfer1::IBuilderConfig*, nvinfer1::DataType, float&, float&, std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.943724] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:348:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilder::setMaxBatchSize(int32_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.943949] (cv_tensorrt) StderrLine: {'line': b'  348 |   builder->setMaxBatchSize(maxBatchSize\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.944131] (cv_tensorrt) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.944235] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.944413] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.944518] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:9379:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.944620] (cv_tensorrt) StderrLine: {'line': b' 9379 |     TRT_DEPRECATED void \x1b[01;36m\x1b[KsetMaxBatchSize\x1b[m\x1b[K(int32_t batchSize) noexcept\n'}
+[1.944730] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.944829] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:349:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilderConfig::setMaxWorkspaceSize(std::size_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.944933] (cv_tensorrt) StderrLine: {'line': b'  349 |   config->setMaxWorkspaceSize(16 * (1 << 20)\x1b[01;35m\x1b[K)\x1b[m\x1b[K;  // 16MB\n'}
+[1.945039] (cv_tensorrt) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.945139] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.945240] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.945340] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:8747:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.945446] (cv_tensorrt) StderrLine: {'line': b' 8747 |     TRT_DEPRECATED void \x1b[01;36m\x1b[KsetMaxWorkspaceSize\x1b[m\x1b[K(std::size_t workspaceSize) noexcept\n'}
+[1.945546] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.945642] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:361:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knvinfer1::ICudaEngine* nvinfer1::IBuilder::buildEngineWithConfig(nvinfer1::INetworkDefinition&, nvinfer1::IBuilderConfig&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.945753] (cv_tensorrt) StderrLine: {'line': b'  361 |   ICudaEngine* engine = builder->buildEngineWithConfig(*network, *config\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.945850] (cv_tensorrt) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.945950] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.946054] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.946153] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:9483:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.946254] (cv_tensorrt) StderrLine: {'line': b' 9483 |     TRT_DEPRECATED nvinfer1::ICudaEngine* \x1b[01;36m\x1b[KbuildEngineWithConfig\x1b[m\x1b[K(\n'}
+[1.946355] (cv_tensorrt) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.946454] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:365:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::INetworkDefinition::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.946558] (cv_tensorrt) StderrLine: {'line': b'  365 |   network->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.946658] (cv_tensorrt) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.946762] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.946863] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.946965] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:7015:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.947067] (cv_tensorrt) StderrLine: {'line': b' 7015 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[1.947165] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.947400] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Knvinfer1::ICudaEngine* build_det_p6_engine(unsigned int, nvinfer1::IBuilder*, nvinfer1::IBuilderConfig*, nvinfer1::DataType, float&, float&, std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.947567] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:452:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilder::setMaxBatchSize(int32_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.947734] (cv_tensorrt) StderrLine: {'line': b'  452 |   builder->setMaxBatchSize(maxBatchSize\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.947892] (cv_tensorrt) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.947992] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.948092] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.948190] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:9379:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.948291] (cv_tensorrt) StderrLine: {'line': b' 9379 |     TRT_DEPRECATED void \x1b[01;36m\x1b[KsetMaxBatchSize\x1b[m\x1b[K(int32_t batchSize) noexcept\n'}
+[1.948402] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.948502] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:453:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilderConfig::setMaxWorkspaceSize(std::size_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.948610] (cv_tensorrt) StderrLine: {'line': b'  453 |   config->setMaxWorkspaceSize(16 * (1 << 20)\x1b[01;35m\x1b[K)\x1b[m\x1b[K;  // 16MB\n'}
+[1.948710] (cv_tensorrt) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.948809] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.948911] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.949010] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:8747:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.949106] (cv_tensorrt) StderrLine: {'line': b' 8747 |     TRT_DEPRECATED void \x1b[01;36m\x1b[KsetMaxWorkspaceSize\x1b[m\x1b[K(std::size_t workspaceSize) noexcept\n'}
+[1.949207] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.949425] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:465:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knvinfer1::ICudaEngine* nvinfer1::IBuilder::buildEngineWithConfig(nvinfer1::INetworkDefinition&, nvinfer1::IBuilderConfig&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.949570] (cv_tensorrt) StderrLine: {'line': b'  465 |   ICudaEngine* engine = builder->buildEngineWithConfig(*network, *config\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.949783] (cv_tensorrt) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.949953] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.950120] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.950223] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:9483:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.950325] (cv_tensorrt) StderrLine: {'line': b' 9483 |     TRT_DEPRECATED nvinfer1::ICudaEngine* \x1b[01;36m\x1b[KbuildEngineWithConfig\x1b[m\x1b[K(\n'}
+[1.950423] (cv_tensorrt) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.950520] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:469:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::INetworkDefinition::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.950618] (cv_tensorrt) StderrLine: {'line': b'  469 |   network->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.950716] (cv_tensorrt) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.950818] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.950918] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.951018] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:7015:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.951118] (cv_tensorrt) StderrLine: {'line': b' 7015 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[1.951217] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.951316] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Knvinfer1::ICudaEngine* build_cls_engine(unsigned int, nvinfer1::IBuilder*, nvinfer1::IBuilderConfig*, nvinfer1::DataType, float&, float&, std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.951421] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:503:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIFullyConnectedLayer\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.951532] (cv_tensorrt) StderrLine: {'line': b'  503 |   IFullyConnectedLayer* \x1b[01;35m\x1b[Kyolo\x1b[m\x1b[K = network->addFullyConnected(*pool2->getOutput(0), kClsNumClass, weightMap["model.9.linear.weight"], weightMap["model.9.linear.bias"]);\n'}
+[1.951635] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.951736] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.951836] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.951933] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:1484:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.952030] (cv_tensorrt) StderrLine: {'line': b' 1484 | class TRT_DEPRECATED \x1b[01;36m\x1b[KIFullyConnectedLayer\x1b[m\x1b[K : public ILayer\n'}
+[1.952127] (cv_tensorrt) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.952224] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:503:163:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knvinfer1::IFullyConnectedLayer* nvinfer1::INetworkDefinition::addFullyConnected(nvinfer1::ITensor&, int32_t, nvinfer1::Weights, nvinfer1::Weights)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.952351] (cv_tensorrt) StderrLine: {'line': b'  503 |   IFullyConnectedLayer* yolo = network->addFullyConnected(*pool2->getOutput(0), kClsNumClass, weightMap["model.9.linear.weight"], weightMap["model.9.linear.bias"]\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.952592] (cv_tensorrt) StderrLine: {'line': b'      |                                                                                                                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.952753] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.952905] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.953005] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:6683:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.953112] (cv_tensorrt) StderrLine: {'line': b' 6683 |     TRT_DEPRECATED IFullyConnectedLayer* \x1b[01;36m\x1b[KaddFullyConnected\x1b[m\x1b[K(\n'}
+[1.953212] (cv_tensorrt) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.953309] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:510:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilder::setMaxBatchSize(int32_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.953408] (cv_tensorrt) StderrLine: {'line': b'  510 |   builder->setMaxBatchSize(maxBatchSize\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.953507] (cv_tensorrt) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.953602] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.953698] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.953792] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:9379:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.953890] (cv_tensorrt) StderrLine: {'line': b' 9379 |     TRT_DEPRECATED void \x1b[01;36m\x1b[KsetMaxBatchSize\x1b[m\x1b[K(int32_t batchSize) noexcept\n'}
+[1.953989] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.954085] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:511:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilderConfig::setMaxWorkspaceSize(std::size_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.954189] (cv_tensorrt) StderrLine: {'line': b'  511 |   config->setMaxWorkspaceSize(16 * (1 << 20)\x1b[01;35m\x1b[K)\x1b[m\x1b[K;  // 16MB\n'}
+[1.954285] (cv_tensorrt) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.954380] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.954475] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.954580] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:8747:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.954677] (cv_tensorrt) StderrLine: {'line': b' 8747 |     TRT_DEPRECATED void \x1b[01;36m\x1b[KsetMaxWorkspaceSize\x1b[m\x1b[K(std::size_t workspaceSize) noexcept\n'}
+[1.954772] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.954875] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:524:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knvinfer1::ICudaEngine* nvinfer1::IBuilder::buildEngineWithConfig(nvinfer1::INetworkDefinition&, nvinfer1::IBuilderConfig&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.954978] (cv_tensorrt) StderrLine: {'line': b'  524 |   ICudaEngine* engine = builder->buildEngineWithConfig(*network, *config\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.955078] (cv_tensorrt) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.955174] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.955271] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.955369] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:9483:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.955466] (cv_tensorrt) StderrLine: {'line': b' 9483 |     TRT_DEPRECATED nvinfer1::ICudaEngine* \x1b[01;36m\x1b[KbuildEngineWithConfig\x1b[m\x1b[K(\n'}
+[1.955565] (cv_tensorrt) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.955666] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:528:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::INetworkDefinition::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.955771] (cv_tensorrt) StderrLine: {'line': b'  528 |   network->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.955867] (cv_tensorrt) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.955965] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.956062] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.956161] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:7015:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.956259] (cv_tensorrt) StderrLine: {'line': b' 7015 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[1.956370] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.956468] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Knvinfer1::ICudaEngine* build_seg_engine(unsigned int, nvinfer1::IBuilder*, nvinfer1::IBuilderConfig*, nvinfer1::DataType, float&, float&, std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.956574] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:602:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilder::setMaxBatchSize(int32_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.956679] (cv_tensorrt) StderrLine: {'line': b'  602 |   builder->setMaxBatchSize(maxBatchSize\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.956775] (cv_tensorrt) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.956871] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.956968] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.957067] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:9379:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.957163] (cv_tensorrt) StderrLine: {'line': b' 9379 |     TRT_DEPRECATED void \x1b[01;36m\x1b[KsetMaxBatchSize\x1b[m\x1b[K(int32_t batchSize) noexcept\n'}
+[1.957260] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.957355] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:603:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilderConfig::setMaxWorkspaceSize(std::size_t)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.957457] (cv_tensorrt) StderrLine: {'line': b'  603 |   config->setMaxWorkspaceSize(16 * (1 << 20)\x1b[01;35m\x1b[K)\x1b[m\x1b[K;  // 16MB\n'}
+[1.957556] (cv_tensorrt) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.957656] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.957754] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.957854] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:8747:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.957952] (cv_tensorrt) StderrLine: {'line': b' 8747 |     TRT_DEPRECATED void \x1b[01;36m\x1b[KsetMaxWorkspaceSize\x1b[m\x1b[K(std::size_t workspaceSize) noexcept\n'}
+[1.958054] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.958150] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:615:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knvinfer1::ICudaEngine* nvinfer1::IBuilder::buildEngineWithConfig(nvinfer1::INetworkDefinition&, nvinfer1::IBuilderConfig&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.958259] (cv_tensorrt) StderrLine: {'line': b'  615 |   ICudaEngine* engine = builder->buildEngineWithConfig(*network, *config\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.958358] (cv_tensorrt) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.958459] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.958558] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.958657] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:9483:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.958760] (cv_tensorrt) StderrLine: {'line': b' 9483 |     TRT_DEPRECATED nvinfer1::ICudaEngine* \x1b[01;36m\x1b[KbuildEngineWithConfig\x1b[m\x1b[K(\n'}
+[1.958858] (cv_tensorrt) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.958955] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:619:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::INetworkDefinition::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[1.959056] (cv_tensorrt) StderrLine: {'line': b'  619 |   network->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.959154] (cv_tensorrt) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.959250] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.h:3\x1b[m\x1b[K,\n'}
+[1.959353] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/model.cpp:1\x1b[m\x1b[K:\n'}
+[1.959449] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:7015:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.959545] (cv_tensorrt) StderrLine: {'line': b' 7015 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[1.959642] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.004334] (-) TimerEvent: {}
+[2.104642] (-) TimerEvent: {}
+[2.204954] (-) TimerEvent: {}
+[2.305272] (-) TimerEvent: {}
+[2.405589] (-) TimerEvent: {}
+[2.505899] (-) TimerEvent: {}
+[2.606209] (-) TimerEvent: {}
+[2.706527] (-) TimerEvent: {}
+[2.806834] (-) TimerEvent: {}
+[2.907145] (-) TimerEvent: {}
+[3.007456] (-) TimerEvent: {}
+[3.107777] (-) TimerEvent: {}
+[3.727025] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cassert:44\x1b[m\x1b[K,\n'}
+[3.727326] (-) TimerEvent: {}
+[3.727471] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:18\x1b[m\x1b[K,\n'}
+[3.727595] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32\x1b[m\x1b[K,\n'}
+[3.727688] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26\x1b[m\x1b[K,\n'}
+[3.727778] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157\x1b[m\x1b[K,\n'}
+[3.727868] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:29\x1b[m\x1b[K,\n'}
+[3.727967] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5\x1b[m\x1b[K:\n'}
+[3.728061] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YOLO::prepare_buffers(nvinfer1::ICudaEngine*, float**, float**, float**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.728154] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:56:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint32_t nvinfer1::ICudaEngine::getNbBindings() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.728248] (cv_tensorrt) StderrLine: {'line': b'   56 |     assert(engine->getNbBindings(\x1b[01;35m\x1b[K)\x1b[m\x1b[K == 2);\n'}
+[3.728381] (cv_tensorrt) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.728476] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[3.728576] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.728667] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.728837] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.728928] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5\x1b[m\x1b[K:\n'}
+[3.729019] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1399:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.729113] (cv_tensorrt) StderrLine: {'line': b' 1399 |     TRT_DEPRECATED int32_t \x1b[01;36m\x1b[KgetNbBindings\x1b[m\x1b[K() const noexcept\n'}
+[3.729202] (cv_tensorrt) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.729293] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:59:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint32_t nvinfer1::ICudaEngine::getBindingIndex(const char*) const\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.729389] (cv_tensorrt) StderrLine: {'line': b'   59 |     const int inputIndex = engine->getBindingIndex(kInputTensorName\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.729482] (cv_tensorrt) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.729574] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[3.729654] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.729742] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.729912] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.730004] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5\x1b[m\x1b[K:\n'}
+[3.730092] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1427:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.730299] (cv_tensorrt) StderrLine: {'line': b' 1427 |     TRT_DEPRECATED int32_t \x1b[01;36m\x1b[KgetBindingIndex\x1b[m\x1b[K(char const* name) const noexcept\n'}
+[3.730404] (cv_tensorrt) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.730499] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:60:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint32_t nvinfer1::ICudaEngine::getBindingIndex(const char*) const\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.730593] (cv_tensorrt) StderrLine: {'line': b'   60 |     const int outputIndex = engine->getBindingIndex(kOutputTensorName\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.730681] (cv_tensorrt) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.730769] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[3.730867] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.730954] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.731042] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.731131] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5\x1b[m\x1b[K:\n'}
+[3.731222] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1427:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.731311] (cv_tensorrt) StderrLine: {'line': b' 1427 |     TRT_DEPRECATED int32_t \x1b[01;36m\x1b[KgetBindingIndex\x1b[m\x1b[K(char const* name) const noexcept\n'}
+[3.731401] (cv_tensorrt) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.731492] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YOLO::infer(nvinfer1::IExecutionContext&, CUstream_st*&, void**, float*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.731592] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:71:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool nvinfer1::IExecutionContext::enqueue(int32_t, void* const*, cudaStream_t, CUevent_st**)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.731686] (cv_tensorrt) StderrLine: {'line': b'   71 |     context.enqueue(batchsize, gpu_buffers, stream, nullptr\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.731777] (cv_tensorrt) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.731870] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[3.731960] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.732050] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.732143] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.732235] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5\x1b[m\x1b[K:\n'}
+[3.732371] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:2303:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.732463] (cv_tensorrt) StderrLine: {'line': b' 2303 |     TRT_DEPRECATED bool \x1b[01;36m\x1b[Kenqueue\x1b[m\x1b[K(\n'}
+[3.732550] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.732640] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YOLO::serialize_engine(unsigned int, bool&, float&, float&, std::string&, std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.732734] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:103:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::ICudaEngine::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.732832] (cv_tensorrt) StderrLine: {'line': b'  103 |     engine->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.732925] (cv_tensorrt) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.733011] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[3.733096] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.733185] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.733272] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.733366] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5\x1b[m\x1b[K:\n'}
+[3.733455] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1609:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.733543] (cv_tensorrt) StderrLine: {'line': b' 1609 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[3.733631] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.733721] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:104:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilder::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.733813] (cv_tensorrt) StderrLine: {'line': b'  104 |     builder->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.733905] (cv_tensorrt) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.733995] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.734083] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.734172] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.734266] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5\x1b[m\x1b[K:\n'}
+[3.734353] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:9422:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.734442] (cv_tensorrt) StderrLine: {'line': b' 9422 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[3.734530] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.734620] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:105:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IBuilderConfig::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.734711] (cv_tensorrt) StderrLine: {'line': b'  105 |     config->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.734800] (cv_tensorrt) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.734890] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.734988] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.735087] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.735181] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5\x1b[m\x1b[K:\n'}
+[3.735274] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:8950:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.735368] (cv_tensorrt) StderrLine: {'line': b' 8950 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[3.735459] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.735547] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:106:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IHostMemory::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.735644] (cv_tensorrt) StderrLine: {'line': b'  106 |     serialized_engine->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.735734] (cv_tensorrt) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.735822] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[3.735909] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.735997] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.736086] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.736178] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/YOLO.cpp:5\x1b[m\x1b[K:\n'}
+[3.736269] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:172:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.736441] (cv_tensorrt) StderrLine: {'line': b'  172 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[3.736531] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.811080] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.811509] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:207:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IExecutionContext::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.811607] (cv_tensorrt) StderrLine: {'line': b'  207 |     context->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.811694] (cv_tensorrt) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.811778] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[3.811863] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.811943] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.812031] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.812111] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[3.812183] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:2369:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.812250] (cv_tensorrt) StderrLine: {'line': b' 2369 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[3.812349] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.812449] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:208:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::ICudaEngine::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.812516] (cv_tensorrt) StderrLine: {'line': b'  208 |     engine->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.812581] (cv_tensorrt) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.812656] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[3.812734] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.812810] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.812890] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.812974] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[3.813061] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1609:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.813149] (cv_tensorrt) StderrLine: {'line': b' 1609 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[3.813238] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.813331] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:209:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid nvinfer1::IRuntime::destroy()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.813430] (cv_tensorrt) StderrLine: {'line': b'  209 |     runtime->destroy(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.813517] (cv_tensorrt) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.813606] (cv_tensorrt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInfer.h:17\x1b[m\x1b[K,\n'}
+[3.813696] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4\x1b[m\x1b[K,\n'}
+[3.813792] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28\x1b[m\x1b[K,\n'}
+[3.813886] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9\x1b[m\x1b[K,\n'}
+[3.813979] (cv_tensorrt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[3.814073] (cv_tensorrt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:682:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.814165] (cv_tensorrt) StderrLine: {'line': b'  682 |     TRT_DEPRECATED void \x1b[01;36m\x1b[Kdestroy\x1b[m\x1b[K() noexcept\n'}
+[3.814258] (cv_tensorrt) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.827433] (-) TimerEvent: {}
+[3.927748] (-) TimerEvent: {}
+[4.028067] (-) TimerEvent: {}
+[4.128421] (-) TimerEvent: {}
+[4.228750] (-) TimerEvent: {}
+[4.329084] (-) TimerEvent: {}
+[4.429416] (-) TimerEvent: {}
+[4.529739] (-) TimerEvent: {}
+[4.630005] (-) TimerEvent: {}
+[4.730316] (-) TimerEvent: {}
+[4.830764] (-) TimerEvent: {}
+[4.931101] (-) TimerEvent: {}
+[5.031418] (-) TimerEvent: {}
+[5.131702] (-) TimerEvent: {}
+[5.232018] (-) TimerEvent: {}
+[5.332289] (-) TimerEvent: {}
+[5.432597] (-) TimerEvent: {}
+[5.532927] (-) TimerEvent: {}
+[5.633396] (-) TimerEvent: {}
+[5.733731] (-) TimerEvent: {}
+[5.834106] (-) TimerEvent: {}
+[5.934392] (-) TimerEvent: {}
+[6.034706] (-) TimerEvent: {}
+[6.134973] (-) TimerEvent: {}
+[6.235243] (-) TimerEvent: {}
+[6.286365] (cv_tensorrt) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cv_tensorrt\x1b[0m\n'}
+[6.335356] (-) TimerEvent: {}
+[6.435651] (-) TimerEvent: {}
+[6.536009] (-) TimerEvent: {}
+[6.574804] (cv_tensorrt) StdoutLine: {'line': b'[100%] Built target cv_tensorrt\n'}
+[6.580027] (cv_tensorrt) CommandEnded: {'returncode': 0}
+[6.597166] (cv_tensorrt) JobProgress: {'identifier': 'cv_tensorrt', 'progress': 'install'}
+[6.599768] (cv_tensorrt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt'], 'cwd': '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hongbin'), ('SSH_AGENT_PID', '5490'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/hongbin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4273'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d9f1710c6c0d526658b4f4b642c55ad'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hongbin'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:78032'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hongbin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.8/bin:/home/hongbin/.local/bin:/usr/local/cuda-11.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hongbin-AERO-15-WB:@/tmp/.ICE-unix/5535,unix/hongbin-AERO-15-WB:/tmp/.ICE-unix/5535'), ('INVOCATION_ID', '653088d0e7f048368616a3262c26d994'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf55e2f9_e5c5_4c21_8378_df7aa8970d3f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d9f1710c6c0d526658b4f4b642c55ad'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.603173] (cv_tensorrt) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[6.604513] (cv_tensorrt) StdoutLine: {'line': b'-- Installing: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/cv_tensorrt/cv_tensorrt\n'}
+[6.607737] (cv_tensorrt) StdoutLine: {'line': b'-- Set runtime path of "/home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/cv_tensorrt/cv_tensorrt" to ""\n'}
+[6.607827] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//launch\n'}
+[6.607917] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//launch/cv_tensorrt_launch.py\n'}
+[6.608035] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config\n'}
+[6.608154] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/yolov5_det\n'}
+[6.608217] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/yolov5s.wts\n'}
+[6.608266] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt//config/autoAim.yaml\n'}
+[6.608341] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin\n'}
+[6.608560] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/armor.engine\n'}
+[6.608647] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/yolov5s.engine\n'}
+[6.608728] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/lib/my_plugin/libmyplugins.so\n'}
+[6.608865] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/package_run_dependencies/cv_tensorrt\n'}
+[6.609019] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/parent_prefix_path/cv_tensorrt\n'}
+[6.609076] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/ament_prefix_path.sh\n'}
+[6.609127] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/ament_prefix_path.dsv\n'}
+[6.609177] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/path.sh\n'}
+[6.609228] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/environment/path.dsv\n'}
+[6.609278] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.bash\n'}
+[6.609361] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.sh\n'}
+[6.609427] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.zsh\n'}
+[6.609477] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/local_setup.dsv\n'}
+[6.609525] (cv_tensorrt) StdoutLine: {'line': b'-- Installing: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/package.dsv\n'}
+[6.609624] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/ament_index/resource_index/packages/cv_tensorrt\n'}
+[6.609678] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.609758] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/cv_tensorrtConfig.cmake\n'}
+[6.610014] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/cmake/cv_tensorrtConfig-version.cmake\n'}
+[6.610617] (cv_tensorrt) StdoutLine: {'line': b'-- Up-to-date: /home/hongbin/Desktop/cv_workspace/install/cv_tensorrt/share/cv_tensorrt/package.xml\n'}
+[6.610713] (cv_tensorrt) CommandEnded: {'returncode': 0}
+[6.636104] (-) TimerEvent: {}
+[6.654723] (cv_tensorrt) JobEnded: {'identifier': 'cv_tensorrt', 'rc': 0}
+[6.655644] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+Invoking command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt -- -j12 -l12
+Invoked command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt -- -j12 -l12
+Invoking command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt
+Invoked command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt

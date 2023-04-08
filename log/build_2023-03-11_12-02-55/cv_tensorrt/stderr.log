@@ -1,0 +1,53 @@
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:36:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   36 |     argv[1] = [01;35m[K"-d"[m[K;
+      |               [01;35m[K^~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:37:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   37 |     argv[2] = [01;35m[K"yolo5s.engine"[m[K;
+      |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:38:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   38 |     argv[3] = [01;35m[K".."[m[K;
+      |               [01;35m[K^~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:39:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   39 |     detector.parse_args(argc, argv, wts_name, engine_name, is_p6, gd, gw, img_dir)
+      |                                                                                   [01;31m[K^[m[K
+      |                                                                                   [32m[K;[m[K
+......
+   49 |     [32m[Kif[m[K (!wts_name.empty()) {
+      |     [32m[K~~[m[K                                                                             
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:191:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IExecutionContext::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  191 |     context->destroy([01;35m[K)[m[K;
+      |                      [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:2369:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2369 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:192:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::ICudaEngine::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  192 |     engine->destroy([01;35m[K)[m[K;
+      |                     [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1609:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1609 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:193:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IRuntime::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  193 |     runtime->destroy([01;35m[K)[m[K;
+      |                      [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+                 from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:682:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  682 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/cv_tensorrt.dir/build.make:76: CMakeFiles/cv_tensorrt.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cv_tensorrt.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
