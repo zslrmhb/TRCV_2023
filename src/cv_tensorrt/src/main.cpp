@@ -181,7 +181,6 @@ int main(int argc, char** argv) {
         double t = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
         draw_bbox(img, best_det);
 
-//        std::string label = cv::format("Inference time : %.2f ms", t);
         std::string label = cv::format("Inference time : % fps", 1/(t/1000));
         cv::putText(img,label, cv::Point(20, 40), cv::FONT_HERSHEY_SIMPLEX, 0.7, cv::Scalar(0,0,255));
         cv::imshow(window_name , img);
@@ -193,13 +192,10 @@ int main(int argc, char** argv) {
             rclcpp::shutdown();
             break;
         }
-
-
-
     }
 
 
-//    // Release stream and buffers
+    // Release stream and buffers
     cudaStreamDestroy(stream);
     CUDA_CHECK(cudaFree(gpu_buffers[0]));
     CUDA_CHECK(cudaFree(gpu_buffers[1]));
@@ -211,7 +207,6 @@ int main(int argc, char** argv) {
     engine->destroy();
     runtime->destroy();
     std::cout << "Memory Freed";
-
 
     return 0;
 }
