@@ -9,42 +9,9 @@ YOLO::YOLO()
 
 };
 
-bool YOLO::parse_args(int argc, char** argv, std::string& wts, std::string& engine, bool& is_p6, float& gd, float& gw, std::string& img_dir) {
-    if (argc < 4) return false;
-    if (std::string(argv[1]) == "-s" && (argc == 5 || argc == 7)) {
-        wts = std::string(argv[2]);
-        engine = std::string(argv[3]);
-        auto net = std::string(argv[4]);
-        if (net[0] == 'n') {
-            gd = 0.33;
-            gw = 0.25;
-        } else if (net[0] == 's') {
-            gd = 0.33;
-            gw = 0.50;
-        } else if (net[0] == 'm') {
-            gd = 0.67;
-            gw = 0.75;
-        } else if (net[0] == 'l') {
-            gd = 1.0;
-            gw = 1.0;
-        } else if (net[0] == 'x') {
-            gd = 1.33;
-            gw = 1.25;
-        } else if (net[0] == 'c' && argc == 7) {
-            gd = atof(argv[5]);
-            gw = atof(argv[6]);
-        } else {
-            return false;
-        }
-        if (net.size() == 2 && net[1] == '6') {
-            is_p6 = true;
-        }
-    } else if (std::string(argv[1]) == "-d" && argc == 4) {
-        engine = std::string(argv[2]);
-        img_dir = std::string(argv[3]);
-    } else {
-        return false;
-    }
+bool YOLO::parse_args(int argc, char **argv,  std::string &engine) {
+    if (argc != 2) return false;
+    else engine = std::string(argv[1]);
     return true;
 }
 
