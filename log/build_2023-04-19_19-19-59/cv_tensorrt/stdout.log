@@ -1,0 +1,4 @@
+[ 20%] Built target myplugins
+[ 30%] [32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/main.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/Camera.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/YOLO.cpp.o[0m

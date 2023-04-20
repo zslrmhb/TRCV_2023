@@ -1,0 +1,49 @@
+[0.011s] Invoking command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt -- -j12 -l12
+[0.027s] [ 20%] Built target myplugins
+[0.047s] [ 30%] [32mBuilding CXX object CMakeFiles/cv_tensorrt.dir/src/main.cpp.o[0m
+[1.800s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.800s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:58:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KYOLO::parse_args(int&, char**&, std::string&)[m[K’
+[1.800s]    58 |     if(!detector.parse_args(argc, argv, engine_name[01;31m[K)[m[K) {
+[1.800s]       |                                                    [01;31m[K^[m[K
+[1.800s] In file included from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[1.800s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:66:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool YOLO::parse_args(int, char**, std::string&, std::string&, bool&, float&, float&, std::string&)[m[K’
+[1.800s]    66 |     bool [01;36m[Kparse_args[m[K(int argc, char** argv, std::string& wts, std::string& engine, bool& is_p6, float& gd, float& gw, std::string& img_dir);
+[1.800s]       |          [01;36m[K^~~~~~~~~~[m[K
+[1.800s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:66:10:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 3 provided
+[1.808s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:167:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IExecutionContext::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.808s]   167 |                 context->destroy([01;35m[K)[m[K;
+[1.808s]       |                                  [01;35m[K^[m[K
+[1.808s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[1.809s] [01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:2369:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.809s]  2369 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+[1.809s]       |                         [01;36m[K^~~~~~~[m[K
+[1.809s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:168:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::ICudaEngine::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.809s]   168 |                 engine->destroy([01;35m[K)[m[K;
+[1.809s]       |                                 [01;35m[K^[m[K
+[1.809s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+[1.809s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[1.809s] [01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1609:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.809s]  1609 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+[1.809s]       |                         [01;36m[K^~~~~~~[m[K
+[1.809s] [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:169:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IRuntime::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.809s]   169 |                 runtime->destroy([01;35m[K)[m[K;
+[1.810s]       |                                  [01;35m[K^[m[K
+[1.810s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+[1.810s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/macros.h:4[m[K,
+[1.810s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/lib/yolov5/src/logging.h:28[m[K,
+[1.810s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/../include/auto_aim/YOLO.hpp:9[m[K,
+[1.810s]                  from [01m[K/home/hongbin/Desktop/cv_workspace/src/cv_tensorrt/src/main.cpp:1[m[K:
+[1.810s] [01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:682:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.810s]   682 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+[1.810s]       |                         [01;36m[K^~~~~~~[m[K
+[2.744s] make[2]: *** [CMakeFiles/cv_tensorrt.dir/build.make:76: CMakeFiles/cv_tensorrt.dir/src/main.cpp.o] Error 1
+[2.744s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cv_tensorrt.dir/all] Error 2
+[2.744s] make: *** [Makefile:146: all] Error 2
+[2.746s] Invoked command in '/home/hongbin/Desktop/cv_workspace/build/cv_tensorrt' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hongbin/Desktop/cv_workspace/build/cv_tensorrt -- -j12 -l12
